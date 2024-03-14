@@ -1,0 +1,127 @@
+/* Cài đặt chung */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-weight: Arial;
+}
+h3{
+    font-weight: Arial;
+    color: purple;
+}
+
+/* Header */
+
+header {
+    color: rgb(81, 136, 219);
+    text-align: left ;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main */
+
+main {
+    padding: 40px 20px;
+}
+.left-column {
+    float: left;
+    width: 50%;
+  }
+  
+  .right-column {
+    float: right;
+    width: 50%;
+  }
+  
+
+/* Section "Thông tin" */
+
+section.thong-tin {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section.thong-tin h2 {
+    margin-top: 0;
+}
+ .a {
+    font-family: Arial, sans-serif;
+    margin-top: 0;
+    font-size: 10px;
+    margin-left: 3px;
+    color: rgb(175, 169, 169);
+}
+section.thong-tin #loca {
+    font-size: 15px;
+    color: rgb(175, 169, 169);
+}section.thong-tin #mail {
+    font-size: 15px;
+}section.thong-tin #phone {
+    font-size: 15px;
+}
+/* Section "Liên hệ" */
+
+section.lien-he {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section.lien-he h2 {
+    margin-top: 0;
+}
+
+section.lien-he form {
+    padding: 20px;
+}
+
+section.lien-he form .form-group {
+    margin-bottom: 10px;
+}
+
+section.lien-he form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+section.lien-he form .form-group input,section.lien-he form .form-group textarea
+ {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+section.lien-he form .form-group textarea {
+    height: 100px;
+}
+
+section.lien-he form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section.lien-he form button:hover {
+    background-color: #444;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+    /* Sửa đổi giao diện cho thiết bị di động */
+}
